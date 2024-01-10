@@ -1,6 +1,6 @@
 import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/splashScreen.dart';
-import 'package:ase_taxi/welcomePage.dart';
+import 'package:ase_taxi/welcome_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,14 +13,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'CityTaxi',
-        theme: ThemeData(
-          //primarySwatch: Colors.amber,
-          primaryColor: Palette.mainColor60,
-          // useMaterial3: true,
-          // colorScheme: ColorScheme.fromSeed(seedColor: Color(0xFF3A2A46)),
-        ),
-        home: const SplashScreen());
+      title: 'CityTaxi',
+      theme: ThemeData(
+        // colorSchemeSeed: Palette.mainColor60,
+        primaryColor: Palette.mainColor60,
+        fontFamily: 'Merriweather Sans',
+      ),
+      home: const SplashScreen(),
+    );
   }
 }
 

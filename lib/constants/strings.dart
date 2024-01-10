@@ -6,7 +6,7 @@ extension CustomStyles on TextTheme {
     return TextStyle(
       fontSize: 10.7,
       color: Palette.white,
-      fontWeight: FontWeight.w500,
+      fontWeight: FontWeight.w400,
     );
   }
 
@@ -14,7 +14,7 @@ extension CustomStyles on TextTheme {
     return TextStyle(
       fontSize: 13.3,
       color: Palette.white,
-      fontWeight: FontWeight.w500,
+      fontWeight: FontWeight.w400,
     );
   }
 
@@ -22,7 +22,7 @@ extension CustomStyles on TextTheme {
     return TextStyle(
       fontSize: 16,
       color: Palette.white,
-      fontWeight: FontWeight.w500,
+      fontWeight: FontWeight.w400,
     );
   }
 
@@ -30,7 +30,7 @@ extension CustomStyles on TextTheme {
     return TextStyle(
       fontSize: 18.7,
       color: Palette.white,
-      fontWeight: FontWeight.w500,
+      fontWeight: FontWeight.w400,
     );
   }
 
@@ -38,7 +38,7 @@ extension CustomStyles on TextTheme {
     return TextStyle(
       fontSize: 24,
       color: Palette.white,
-      fontWeight: FontWeight.w500,
+      fontWeight: FontWeight.w400,
     );
   }
 
@@ -46,7 +46,7 @@ extension CustomStyles on TextTheme {
     return TextStyle(
       fontSize: 32,
       color: Palette.white,
-      fontWeight: FontWeight.w500,
+      fontWeight: FontWeight.w400,
     );
   }
 
