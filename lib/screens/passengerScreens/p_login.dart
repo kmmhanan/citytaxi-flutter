@@ -2,7 +2,7 @@ import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_HomePage/p_homePage.dart';
 import 'package:ase_taxi/screens/passwordChange/p_forgotPassword.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_signup.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_welcomeScreen.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/customTextFieldWidget.dart';

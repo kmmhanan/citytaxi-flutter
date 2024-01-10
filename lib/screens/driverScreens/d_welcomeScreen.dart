@@ -21,7 +21,7 @@ class DWelcomeScreen extends StatelessWidget {
             Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => WelcomePage(),
+                  builder: (context) => WelcomeScreen(),
                 ));
           },
         ),

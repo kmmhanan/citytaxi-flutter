@@ -1,6 +1,6 @@
 import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_HomePage/p_nearDrinvers.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_welcomeScreen.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_welcome_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';

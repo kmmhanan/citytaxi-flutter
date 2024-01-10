@@ -1,17 +1,17 @@
 import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/constants/strings.dart';
 import 'package:ase_taxi/screens/driverScreens/d_welcomeScreen.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_welcomeScreen.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_welcome_screen.dart';
 import 'package:flutter/material.dart';
 
-class WelcomePage extends StatefulWidget {
-  const WelcomePage({Key? key}) : super(key: key);
+class WelcomeScreen extends StatefulWidget {
+  const WelcomeScreen({Key? key}) : super(key: key);
 
   @override
-  State<WelcomePage> createState() => _WelcomePageState();
+  State<WelcomeScreen> createState() => _WelcomeScreenState();
 }
 
-class _WelcomePageState extends State<WelcomePage> {
+class _WelcomeScreenState extends State<WelcomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

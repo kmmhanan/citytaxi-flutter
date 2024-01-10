@@ -1,4 +1,5 @@
 import 'package:ase_taxi/constants/palette.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_welcome_screen.dart';
 import 'package:ase_taxi/splashScreen.dart';
 import 'package:ase_taxi/welcome_page.dart';
 import 'package:flutter/material.dart';
@@ -15,11 +16,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'CityTaxi',
       theme: ThemeData(
-        // colorSchemeSeed: Palette.mainColor60,
         primaryColor: Palette.mainColor60,
         fontFamily: 'Merriweather Sans',
       ),
-      home: const SplashScreen(),
+      // home: const SplashScreen(),
+      // Current Working Screen
+      home: const PWelcomeScreen(),
     );
   }
 }
@@ -34,6 +36,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(body: WelcomePage());
+    return const Scaffold(
+      body: WelcomeScreen(),
+    );
   }
 }
