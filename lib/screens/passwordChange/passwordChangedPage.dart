@@ -1,5 +1,5 @@
 import 'package:ase_taxi/constants/palette.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_login.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_login_screen.dart';
 import 'package:ase_taxi/screens/passwordChange/resetPasswordPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
@@ -23,7 +23,7 @@ class _PasswordChangedState extends State<PasswordChanged> {
   _navigatetohome() async {
     await Future.delayed(const Duration(milliseconds: 3500), () {});
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => const PLoginPage()));
+        context, MaterialPageRoute(builder: (context) => const PLoginScreen()));
   }
 
   @override

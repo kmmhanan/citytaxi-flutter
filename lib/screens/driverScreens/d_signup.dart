@@ -3,7 +3,7 @@ import 'package:ase_taxi/screens/driverScreens/d_welcomeScreen.dart';
 import 'package:ase_taxi/screens/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
 
-import '../passengerScreens/p_login.dart';
+import '../passengerScreens/p_login_screen.dart';
 
 class DSignUpPage extends StatefulWidget {
   const DSignUpPage({super.key});
@@ -107,7 +107,7 @@ class _DSignUpPageState extends State<DSignUpPage> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const PLoginPage(),
+                          builder: (context) => const PLoginScreen(),
                         ));
                   },
                   child: Text(

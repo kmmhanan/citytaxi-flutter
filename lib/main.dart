@@ -1,7 +1,7 @@
 import 'package:ase_taxi/constants/palette.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_welcome_screen.dart';
-import 'package:ase_taxi/splashScreen.dart';
-import 'package:ase_taxi/welcome_page.dart';
+import 'package:ase_taxi/screens/passwordChange/p_forgot_password.dart';
+// import 'package:ase_taxi/splash_screen.dart';
+import 'package:ase_taxi/welcome_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const SplashScreen(),
       // Current Working Screen
-      home: const PWelcomeScreen(),
+      home: const PForgotPassword(),
     );
   }
 }

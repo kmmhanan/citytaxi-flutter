@@ -1,7 +1,7 @@
 import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_HomePage/p_homePage.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_HomePage/p_paymentPage.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_login.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_login_screen.dart';
 import 'package:ase_taxi/screens/passwordChange/resetPasswordPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';

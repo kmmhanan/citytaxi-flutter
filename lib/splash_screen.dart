@@ -1,5 +1,3 @@
-// ignore_for_file: use_build_context_synchronously
-
 import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/main.dart';
 import 'package:flutter/material.dart';
@@ -15,19 +13,21 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+
     _navigatetohome();
   }
 
   _navigatetohome() async {
     await Future.delayed(
       const Duration(milliseconds: 3500),
-      () {},
-    );
-    Navigator.pushReplacement(
-      context,
-      MaterialPageRoute(
-        builder: (context) => const MyHomePage(),
-      ),
+      () {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const MyHomePage(),
+          ),
+        );
+      },
     );
   }
 

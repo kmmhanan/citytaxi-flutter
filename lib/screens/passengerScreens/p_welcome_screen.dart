@@ -1,7 +1,7 @@
 import 'package:ase_taxi/components/custom_buttons.dart';
 import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/constants/strings.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_login.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_login_screen.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_signup_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -62,7 +62,7 @@ class PWelcomeScreen extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => PLoginPage(),
+                      builder: (context) => const PLoginScreen(),
                     ),
                   );
                 },

@@ -75,6 +75,44 @@ class CTWhiteButton extends StatelessWidget {
   }
 }
 
+class CTYellowButton extends StatelessWidget {
+  const CTYellowButton({
+    super.key,
+    required this.onTapped,
+    required this.text,
+  });
+
+  final Function() onTapped;
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return InkWell(
+      onTap: onTapped,
+      child: Container(
+        width: double.infinity,
+        height: 56,
+        decoration: ShapeDecoration(
+          color: Palette.yellow,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
+        ),
+        child: Center(
+          child: Text(
+            text,
+            textAlign: TextAlign.center,
+            style: Theme.of(context)
+                .textTheme
+                .normal16
+                .copyWith(color: Palette.black),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class BorderButton extends StatelessWidget {
   const BorderButton({
     super.key,

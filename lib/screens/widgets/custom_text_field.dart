@@ -60,7 +60,7 @@ class CustomTextField extends StatelessWidget {
               hintText: hintText,
               hintStyle: TextStyle(fontStyle: fontStyle),
             ),
-            style: Theme.of(context).textTheme.normal16,
+            style: Theme.of(context).textTheme.normal16.copyWith(height: 1.0),
             cursorColor: Palette.white,
             autocorrect: false,
             textCapitalization: TextCapitalization.none,

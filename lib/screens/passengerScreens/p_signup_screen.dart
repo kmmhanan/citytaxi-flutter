@@ -2,7 +2,7 @@ import 'package:ase_taxi/components/custom_buttons.dart';
 import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/constants/strings.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_HomePage/p_homePage.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_login.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_login_screen.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_welcome_screen.dart';
 import 'package:ase_taxi/screens/widgets/custom_text_field.dart';
 import 'package:flutter/material.dart';
@@ -85,7 +85,7 @@ class _PSignUpScreenState extends State<PSignUpScreen> {
               },
               text: 'SIGN UP',
             ),
-            const SizedBox(height: 14),
+            const SizedBox(height: 24),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -96,7 +96,7 @@ class _PSignUpScreenState extends State<PSignUpScreen> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => const PLoginPage(),
+                        builder: (context) => const PLoginScreen(),
                       ),
                     );
                   },
