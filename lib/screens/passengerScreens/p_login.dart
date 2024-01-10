@@ -1,11 +1,11 @@
 import 'package:ase_taxi/constants/palette.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_HomePage/p_homePage.dart';
 import 'package:ase_taxi/screens/passwordChange/p_forgotPassword.dart';
-import 'package:ase_taxi/screens/passengerScreens/p_signup.dart';
+import 'package:ase_taxi/screens/passengerScreens/p_signup_screen.dart';
 import 'package:ase_taxi/screens/passengerScreens/p_welcome_screen.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/customTextFieldWidget.dart';
+import '../widgets/custom_text_field.dart';
 
 class PLoginPage extends StatefulWidget {
   const PLoginPage({super.key});
@@ -110,17 +110,19 @@ class _PLoginPageState extends State<PLoginPage> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text('DON’T HAVE AN ACCOUNT?   ',
-                    style: TextStyle(
-                        color: Palette.white,
-                        fontSize: 13.30,
-                        fontWeight: FontWeight.w400)),
+                Text(
+                  'DON’T HAVE AN ACCOUNT?   ',
+                  style: TextStyle(
+                      color: Palette.white,
+                      fontSize: 13.30,
+                      fontWeight: FontWeight.w400),
+                ),
                 InkWell(
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => const PSignUpPage(),
+                          builder: (context) => const PSignUpScreen(),
                         ));
                   },
                   child: Text(

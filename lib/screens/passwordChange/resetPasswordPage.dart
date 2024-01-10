@@ -3,7 +3,7 @@ import 'package:ase_taxi/screens/passengerScreens/p_login.dart';
 import 'package:ase_taxi/screens/passwordChange/passwordChangedPage.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/customTextFieldWidget.dart';
+import '../widgets/custom_text_field.dart';
 
 class ResetPassword extends StatelessWidget {
   const ResetPassword({super.key});

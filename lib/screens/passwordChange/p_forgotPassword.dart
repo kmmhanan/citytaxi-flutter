@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-import '../widgets/customTextFieldWidget.dart';
+import '../widgets/custom_text_field.dart';
 
 class PForgotPassword extends StatelessWidget {
   const PForgotPassword({super.key});
